@@ -1,0 +1,13 @@
+posts {
+  background-image: url(../images/posts_mockup.png);
+  background-position: center -10px;
+  background-repeat: no-repeat;
+}
+
+.posts.bg {
+
+}
+
+.postFeed a {
+  background-color: rgba(255, 255, 255, 0.2);
+}
