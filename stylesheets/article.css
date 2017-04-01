@@ -77,6 +77,12 @@ article ul {
 
 article li {
   margin-top: 17px;
+  list-style-type: disc;
+}
+
+article li:only-child {
+  margin-left: -30px;
+  list-style-type: none;
 }
 
 article blockquote {
@@ -119,36 +125,31 @@ article h3 + img {
   margin-top: 81px;
 }
 
+
 @media all and (max-width: 1020px) {
   article img {
     width: 100%;
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media all and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   article h1,
   article h2,
   article h3,
   article p,
   article ul,
   article blockquote {
-    width: 700px;
-    margin: 0 auto;
-  {
     width: calc(100% - 40px);
   }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+@media all and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
   article h1,
   article h2,
   article h3,
   article p,
   article ul,
   article blockquote {
-    width: 700px;
-    margin: 0 auto;
-  {
     width: calc(100% - 40px);
   }
 }
